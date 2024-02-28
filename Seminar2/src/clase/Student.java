@@ -7,6 +7,9 @@ public class Student extends Aplicant {
 	protected int anStudii;
 	private static int finantare = 30;
 
+	public static void setFinantare(int finantare) {
+		Student.finantare = finantare;
+	}
 	public String getFacultate() {
 		return facultate;
 	}
@@ -33,7 +36,7 @@ public class Student extends Aplicant {
 	}
 	@Override
 	public String toString() {
-		return "Student: Nume=" + nume + ", Prenume=" + prenume + ", Varsta=" + varsta + ", Punctaj=" + punctaj + ", NrProiecte=" + nrProiecte +  ", DenumireProiect=" + Arrays.toString(denumireProiect) + "Facultate=" + facultate + ", An_studii=" + anStudii;
+		return "Student: Nume = " + nume + ", Prenume = " + prenume + ", Varsta = " + varsta + ", Punctaj = " + punctaj + ", NrProiecte = " + nrProiecte +  ", DenumireProiect = " + Arrays.toString(denumireProiect) + "Facultate = " + facultate + ", AnStudii = " + anStudii;
 	}
 
 
@@ -41,7 +44,5 @@ public class Student extends Aplicant {
 		System.out.println("Studentul "+getNume()+" "+getPrenume()+" primeste"+finantare+" Euro/zi in proiect.");
 	}
 
-	public static void setFinantare(int finantare) {
-		Student.finantare = finantare;
-	}
+
 }

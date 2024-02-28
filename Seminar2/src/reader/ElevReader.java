@@ -13,7 +13,7 @@ public class ElevReader extends AplicantReader{
     @Override
     public List<Aplicant> read(String file) throws FileNotFoundException {
         Scanner input2 = new Scanner(new File(file));
-        input2.useDelimiter(",|\n");
+        input2.useDelimiter(",");
         List<Aplicant> elevi = new ArrayList<Aplicant>();
 
         while (input2.hasNext()) {

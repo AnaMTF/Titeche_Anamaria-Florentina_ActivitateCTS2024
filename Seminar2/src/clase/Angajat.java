@@ -6,6 +6,10 @@ public class Angajat extends Aplicant{
 	private String ocupatie;
 	private int salariu;
 	private static int finantare = 10;
+
+	public static void setFinantare(int finantare) {
+		Angajat.finantare = finantare;
+	}
 	public String getOcupatie() {
 		return ocupatie;
 	}
@@ -31,17 +35,13 @@ public class Angajat extends Aplicant{
 
 	@Override
 	public String toString() {
-		return "Angajat: Nume=" + nume + ", Prenume=" + prenume
-				+ ", Varsta=" + varsta + ", Punctaj=" + punctaj + ", NrProiecte=" + nrProiecte + ", DenumireProiect="
-				+ Arrays.toString(denumireProiect) + "Ocupatie=" + ocupatie + ", salariu=" + salariu;
+		return "Angajat: Nume = " + nume + ", Prenume = " + prenume
+				+ ", Varsta = " + varsta + ", Punctaj = " + punctaj + ", NrProiecte = " + nrProiecte + ", DenumireProiect = "
+				+ Arrays.toString(denumireProiect) + "Ocupatie = " + ocupatie + ", Salariu = " + salariu;
 	}
-
 
 	public void afiseazaFinantare() {
 		System.out.println("Angajatul "+getNume()+" "+getPrenume()+" primeste"+finantare+" Euro/zi in proiect.");
 	}
 
-	public static void setFinantare(int finantare) {
-		Angajat.finantare = finantare;
-	}
 }

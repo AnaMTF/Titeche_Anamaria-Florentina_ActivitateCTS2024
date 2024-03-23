@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/ExtraWork.iml" filepath="$PROJECT_DIR$/ExtraWork/ExtraWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar1/Seminar1.iml" filepath="$PROJECT_DIR$/Seminar1/Seminar1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar2/Seminar2.iml" filepath="$PROJECT_DIR$/Seminar2/Seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar2Recapitulare/Seminar2Recapitulare.iml" filepath="$PROJECT_DIR$/Seminar2Recapitulare/Seminar2Recapitulare.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar5/Seminar5.iml" filepath="$PROJECT_DIR$/Seminar5/Seminar5.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeminarCTS.iml" filepath="$PROJECT_DIR$/SeminarCTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar3/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Seminar3/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/recapitulareTest/recapitulareTest.iml" filepath="$PROJECT_DIR$/ExtraWork/recapitulareTest/recapitulareTest.iml" />
     </modules>
   </component>
 </project>

@@ -63,7 +63,7 @@ public class Reteta implements PrototipReteta, Cloneable{
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
+    public PrototipReteta clone() throws CloneNotSupportedException {
         Reteta copyReteta = new Reteta();
         copyReteta.numeMedicament = this.numeMedicament;
         copyReteta.cantitate = this.cantitate;

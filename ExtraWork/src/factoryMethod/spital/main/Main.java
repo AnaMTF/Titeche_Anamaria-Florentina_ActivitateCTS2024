@@ -17,8 +17,8 @@ public class Main {
         Personal brancardier1 = factoryBrancardier.crearePersonal();
         Personal medic1 = factoryMedic.crearePersonal();
 
-        System.out.println(asistent1);
-        System.out.println(brancardier1);
-        System.out.println(medic1);
+        asistent1.afisareDetaliiPersonal();
+        brancardier1.afisareDetaliiPersonal();
+        medic1.afisareDetaliiPersonal();
     }
 }

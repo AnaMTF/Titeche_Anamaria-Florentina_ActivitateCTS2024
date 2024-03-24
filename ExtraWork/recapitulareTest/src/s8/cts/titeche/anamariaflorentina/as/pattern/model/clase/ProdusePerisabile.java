@@ -1,4 +1,4 @@
-package cts.titeche.anamariaflorentina.as.pattern.model.clase;
+package s8.cts.titeche.anamariaflorentina.as.pattern.model.clase;
 
 public class ProdusePerisabile implements ProdusGeneric{
 

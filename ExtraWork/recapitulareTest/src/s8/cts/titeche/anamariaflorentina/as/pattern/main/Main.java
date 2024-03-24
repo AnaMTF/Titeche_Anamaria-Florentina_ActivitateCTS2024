@@ -1,11 +1,10 @@
-package cts.titeche.anamariaflorentina.as.pattern.main;
+package s8.cts.titeche.anamariaflorentina.as.pattern.main;
 
-import cts.titeche.anamariaflorentina.as.pattern.model.clase.ProduseBio;
-import cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProdusGeneric;
-import cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProduseBio;
-import cts.titeche.anamariaflorentina.as.pattern.model.clase.ProdusGeneric;
-import cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProduseElectronice;
-import cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProdusePerisabile;
+import s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProdusGeneric;
+import s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProduseBio;
+import s8.cts.titeche.anamariaflorentina.as.pattern.model.clase.ProdusGeneric;
+import s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProduseElectronice;
+import s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProdusePerisabile;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package cts.titeche.anamariaflorentina.as.pattern.model.fabrici;
+package s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici;
 
-import cts.titeche.anamariaflorentina.as.pattern.model.clase.ProdusGeneric;
-import cts.titeche.anamariaflorentina.as.pattern.model.clase.ProdusePerisabile;
+import s8.cts.titeche.anamariaflorentina.as.pattern.model.clase.ProdusGeneric;
+import s8.cts.titeche.anamariaflorentina.as.pattern.model.clase.ProdusePerisabile;
 
 public class FabricaProdusePerisabile extends FabricaProdusGeneric{
     public FabricaProdusePerisabile(String nume, int stoc) {

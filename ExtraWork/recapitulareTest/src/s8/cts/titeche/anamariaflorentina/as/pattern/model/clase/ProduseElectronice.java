@@ -1,11 +1,11 @@
-package cts.titeche.anamariaflorentina.as.pattern.model.clase;
+package s8.cts.titeche.anamariaflorentina.as.pattern.model.clase;
 
-public class ProduseBio implements ProdusGeneric{
+public class ProduseElectronice implements ProdusGeneric{
     String numeProdus;
     int stoc;
-    private static ProduseBio instantaProdusBio = null;
+    private static ProduseElectronice instantaProdusElectronic = null;
 
-    private ProduseBio(String numeProdus, int stoc) {
+    private ProduseElectronice(String numeProdus, int stoc) {
         this.numeProdus = numeProdus;
         this.stoc = stoc;
     }
@@ -13,13 +13,6 @@ public class ProduseBio implements ProdusGeneric{
     @Override
     public float getStoc() {
         return this.stoc;
-    }
-
-    public static synchronized ProduseBio getInstantaProdusBio(String numeProdus, int stoc){
-        if(instantaProdusBio == null || !instantaProdusBio.getNumeProdus().equals(numeProdus)){
-            instantaProdusBio = new ProduseBio(numeProdus, stoc);
-        }
-        return instantaProdusBio;
     }
 
     @Override
@@ -39,9 +32,16 @@ public class ProduseBio implements ProdusGeneric{
 
     @Override
     public String toString() {
-        return "ProduseBio{" +
+        return "ProduseElectronice{" +
                 "numeProdus='" + numeProdus + '\'' +
                 ", stoc=" + stoc +
                 '}';
+    }
+
+    public static ProduseElectronice getInstantaProdusElectronic(String numeProdus, int stoc){
+        if (instantaProdusElectronic == null || !instantaProdusElectronic.getNumeProdus().equals(numeProdus)){
+            instantaProdusElectronic = new ProduseElectronice(numeProdus, stoc);
+        }
+        return instantaProdusElectronic;
     }
 }

@@ -1,11 +1,11 @@
-package s8.cts.titeche.anamariaflorentina.as.pattern.model.clase;
+package s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.clase;
 
 public class ProduseBio implements ProdusGeneric{
-    String numeProdus;
-    int stoc;
-    private static ProduseBio instantaProdusBio = null;
+    private String numeProdus;
+    private int stoc;
 
-    private ProduseBio(String numeProdus, int stoc) {
+
+    public ProduseBio(String numeProdus, int stoc) {
         this.numeProdus = numeProdus;
         this.stoc = stoc;
     }
@@ -15,16 +15,9 @@ public class ProduseBio implements ProdusGeneric{
         return this.stoc;
     }
 
-    public static synchronized ProduseBio getInstantaProdusBio(String numeProdus, int stoc){
-        if(instantaProdusBio == null || !instantaProdusBio.getNumeProdus().equals(numeProdus)){
-            instantaProdusBio = new ProduseBio(numeProdus, stoc);
-        }
-        return instantaProdusBio;
-    }
-
     @Override
     public void afiseazaDescriereProdus() {
-        System.out.println("Produsul " + this.numeProdus + " are stocul de " + this.stoc + " bucati.");
+        System.out.println("Produsul BIO " + this.numeProdus + " are stocul de " + this.stoc + " bucati.");
     }
 
     @Override
@@ -34,7 +27,9 @@ public class ProduseBio implements ProdusGeneric{
 
     @Override
     public void cresteStoc(int nrProduse) {
+        int stocInitial = this.stoc;
         this.stoc += nrProduse;
+        System.out.println("Stocul produsului " + this.numeProdus + " a fost crescut de la " + stocInitial + " la " + this.stoc + " bucati.");
     }
 
     @Override

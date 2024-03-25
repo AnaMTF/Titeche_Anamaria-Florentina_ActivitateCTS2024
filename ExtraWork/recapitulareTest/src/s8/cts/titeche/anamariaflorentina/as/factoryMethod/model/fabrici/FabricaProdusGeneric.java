@@ -1,6 +1,6 @@
-package s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici;
+package s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.fabrici;
 
-import s8.cts.titeche.anamariaflorentina.as.pattern.model.clase.ProdusGeneric;
+import s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.clase.ProdusGeneric;
 
 public abstract class FabricaProdusGeneric {
     String nume;

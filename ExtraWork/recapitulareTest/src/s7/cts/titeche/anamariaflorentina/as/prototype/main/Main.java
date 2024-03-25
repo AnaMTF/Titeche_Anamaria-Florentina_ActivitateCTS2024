@@ -1,7 +1,7 @@
-package s7.cts.titeche.anamariaflorentina.as.pattern.main;
+package s7.cts.titeche.anamariaflorentina.as.prototype.main;
 
-import s7.cts.titeche.anamariaflorentina.as.pattern.model.Imagine;
-import s7.cts.titeche.anamariaflorentina.as.pattern.model.ImagineVirtuala;
+import s7.cts.titeche.anamariaflorentina.as.prototype.model.Imagine;
+import s7.cts.titeche.anamariaflorentina.as.prototype.model.ImagineVirtuala;
 
 import java.util.ArrayList;
 import java.util.List;

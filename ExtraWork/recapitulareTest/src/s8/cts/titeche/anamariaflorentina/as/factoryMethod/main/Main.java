@@ -1,12 +1,17 @@
-package s8.cts.titeche.anamariaflorentina.as.pattern.main;
+package s8.cts.titeche.anamariaflorentina.as.factoryMethod.main;
 
-import s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProdusGeneric;
-import s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProduseBio;
-import s8.cts.titeche.anamariaflorentina.as.pattern.model.clase.ProdusGeneric;
-import s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProduseElectronice;
-import s8.cts.titeche.anamariaflorentina.as.pattern.model.fabrici.FabricaProdusePerisabile;
+import s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.fabrici.FabricaProdusGeneric;
+import s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.fabrici.FabricaProduseBio;
+import s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.clase.ProdusGeneric;
+import s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.fabrici.FabricaProduseElectronice;
+import s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.fabrici.FabricaProdusePerisabile;
 
 public class Main {
+
+    static void creareProdus(FabricaProdusGeneric fabricaProdusGeneric, String nume, int nrProduse) {
+        ProdusGeneric produsGeneric = fabricaProdusGeneric.creareProdus();
+        produsGeneric.afiseazaDescriereProdus();
+    }
     public static void main(String[] args) {
         FabricaProdusGeneric fabricaProdusBio = new FabricaProduseBio("Bio", 10);
         FabricaProdusGeneric fabricaProdusBio2 = new FabricaProduseBio("Bio", 3330);

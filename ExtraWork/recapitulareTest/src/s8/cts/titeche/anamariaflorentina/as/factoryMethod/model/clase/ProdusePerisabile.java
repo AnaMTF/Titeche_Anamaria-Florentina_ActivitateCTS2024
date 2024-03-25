@@ -1,10 +1,10 @@
-package s8.cts.titeche.anamariaflorentina.as.pattern.model.clase;
+package s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.clase;
 
 public class ProdusePerisabile implements ProdusGeneric{
 
     String numeProdus;
     int stoc;
-    private static ProdusePerisabile instantaProdusPerisabil = null;
+
     @Override
     public float getStoc() {
         return this.stoc;
@@ -12,7 +12,7 @@ public class ProdusePerisabile implements ProdusGeneric{
 
     @Override
     public void afiseazaDescriereProdus() {
-        System.out.println("Produsul " + this.numeProdus + " are stocul de " + this.stoc + " bucati.");
+        System.out.println("Produsul Perisabil " + this.numeProdus + " are stocul de " + this.stoc + " bucati.");
     }
 
     @Override
@@ -22,10 +22,12 @@ public class ProdusePerisabile implements ProdusGeneric{
 
     @Override
     public void cresteStoc(int nrProduse) {
+        int stocInitial = this.stoc;
         this.stoc += nrProduse;
+        System.out.println("Stocul produsului " + this.numeProdus + " a fost crescut de la " + stocInitial + " la " + this.stoc + " bucati.");
     }
 
-    private ProdusePerisabile(String numeProdus, int stoc) {
+    public ProdusePerisabile(String numeProdus, int stoc) {
         this.numeProdus = numeProdus;
         this.stoc = stoc;
     }
@@ -36,12 +38,5 @@ public class ProdusePerisabile implements ProdusGeneric{
                 "numeProdus='" + numeProdus + '\'' +
                 ", stoc=" + stoc +
                 '}';
-    }
-
-    public static ProdusePerisabile getInstantaProdusPerisabil( String numeProdus, int stoc){
-        if(instantaProdusPerisabil == null || !instantaProdusPerisabil.getNumeProdus().equals(numeProdus)){
-            instantaProdusPerisabil = new ProdusePerisabile(numeProdus, stoc);
-        }
-        return instantaProdusPerisabil;
     }
 }

@@ -1,4 +1,4 @@
-package s7.cts.titeche.anamariaflorentina.as.pattern.model;
+package s7.cts.titeche.anamariaflorentina.as.prototype.model;
 
 import java.util.List;
 

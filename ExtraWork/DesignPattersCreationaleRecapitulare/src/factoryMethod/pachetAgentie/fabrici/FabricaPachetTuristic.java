@@ -1,7 +1,7 @@
-package factoryMethod.fabrici;
+package factoryMethod.pachetAgentie.fabrici;
 
-import factoryMethod.clase.PachetGeneric;
-import factoryMethod.clase.PachetTuristic;
+import factoryMethod.pachetAgentie.clase.PachetGeneric;
+import factoryMethod.pachetAgentie.clase.PachetTuristic;
 
 public class FabricaPachetTuristic extends FabricaPachetGeneric{
     public FabricaPachetTuristic(String numePachet, float pret) {

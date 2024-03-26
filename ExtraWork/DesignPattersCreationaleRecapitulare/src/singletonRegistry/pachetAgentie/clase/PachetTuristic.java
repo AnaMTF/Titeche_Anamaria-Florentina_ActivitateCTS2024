@@ -1,4 +1,4 @@
-package singletonRegistry.clase;
+package singletonRegistry.pachetAgentie.clase;
 
 public interface PachetTuristic {
     float getPret();

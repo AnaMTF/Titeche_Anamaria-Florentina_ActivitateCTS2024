@@ -1,4 +1,4 @@
-package factoryMethod.clase;
+package factoryMethod.pachetAgentie.clase;
 
 public interface PachetGeneric {
     float getPret();

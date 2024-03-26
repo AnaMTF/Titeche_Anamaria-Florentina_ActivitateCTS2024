@@ -1,10 +1,10 @@
-package factoryMethod.clase;
+package factoryMethod.pachetAgentie.clase;
 
-public class PachetCazare implements PachetGeneric{
+public class PachetTransport implements PachetGeneric{
      private String numePachet;
     private float pretPachet;
 
-    public PachetCazare(String numePachet, float pretPachet) {
+    public PachetTransport(String numePachet, float pretPachet) {
         this.numePachet = numePachet;
         this.pretPachet = pretPachet;
     }
@@ -16,7 +16,7 @@ public class PachetCazare implements PachetGeneric{
 
     @Override
     public void afiseazaDecrierePachet() {
-        System.out.println("Pachetul CAZARE " + this.numePachet + " are pretul de" + this.pretPachet + " RON");
+        System.out.println("Pachetul TRANSPORT " + this.numePachet + " are pretul de" + this.pretPachet + " RON");
     }
 
     @Override

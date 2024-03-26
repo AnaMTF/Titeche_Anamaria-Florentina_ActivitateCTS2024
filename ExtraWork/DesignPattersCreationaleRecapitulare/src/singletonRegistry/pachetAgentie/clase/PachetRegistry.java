@@ -1,4 +1,4 @@
-package singletonRegistry.clase;
+package singletonRegistry.pachetAgentie.clase;
 
 import java.util.HashMap;
 import java.util.Map;

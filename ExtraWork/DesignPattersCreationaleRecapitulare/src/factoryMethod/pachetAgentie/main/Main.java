@@ -1,8 +1,8 @@
-package factoryMethod.main;
+package factoryMethod.pachetAgentie.main;
 
-import factoryMethod.clase.PachetGeneric;
-import factoryMethod.fabrici.FabricaPachetCazare;
-import factoryMethod.fabrici.FabricaPachetGeneric;
+import factoryMethod.pachetAgentie.clase.PachetGeneric;
+import factoryMethod.pachetAgentie.fabrici.FabricaPachetCazare;
+import factoryMethod.pachetAgentie.fabrici.FabricaPachetGeneric;
 
 public class Main {
     public static void main(String[] args) {

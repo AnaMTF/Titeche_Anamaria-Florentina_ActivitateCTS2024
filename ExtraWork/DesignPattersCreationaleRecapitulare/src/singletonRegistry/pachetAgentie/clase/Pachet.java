@@ -1,4 +1,4 @@
-package singletonRegistry.clase;
+package singletonRegistry.pachetAgentie.clase;
 
 public class Pachet implements PachetTuristic{
     private String numePachet;

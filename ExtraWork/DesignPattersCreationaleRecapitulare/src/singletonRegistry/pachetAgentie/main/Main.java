@@ -1,7 +1,7 @@
-package singletonRegistry.main;
+package singletonRegistry.pachetAgentie.main;
 
-import singletonRegistry.clase.Pachet;
-import singletonRegistry.clase.PachetRegistry;
+import singletonRegistry.pachetAgentie.clase.Pachet;
+import singletonRegistry.pachetAgentie.clase.PachetRegistry;
 
 public class Main {
     public static void main(String[] args) {

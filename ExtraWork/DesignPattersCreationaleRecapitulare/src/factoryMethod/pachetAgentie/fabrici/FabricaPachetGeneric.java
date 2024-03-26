@@ -1,6 +1,6 @@
-package factoryMethod.fabrici;
+package factoryMethod.pachetAgentie.fabrici;
 
-import factoryMethod.clase.PachetGeneric;
+import factoryMethod.pachetAgentie.clase.PachetGeneric;
 
 public abstract class FabricaPachetGeneric {
     String numePachet;

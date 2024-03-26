@@ -7,11 +7,6 @@ import s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.fabrici.FabricaP
 import s8.cts.titeche.anamariaflorentina.as.factoryMethod.model.fabrici.FabricaProdusePerisabile;
 
 public class Main {
-
-    static void creareProdus(FabricaProdusGeneric fabricaProdusGeneric, String nume, int nrProduse) {
-        ProdusGeneric produsGeneric = fabricaProdusGeneric.creareProdus();
-        produsGeneric.afiseazaDescriereProdus();
-    }
     public static void main(String[] args) {
         FabricaProdusGeneric fabricaProdusBio = new FabricaProduseBio("Bio", 10);
         FabricaProdusGeneric fabricaProdusBio2 = new FabricaProduseBio("Bio", 3330);

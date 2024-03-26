@@ -14,9 +14,13 @@ public class Main {
         listaAplicatii.add("TikTok");
         listaAplicatii.add("Twitter");
         ImagineBuilder imagineBuilder = new ImagineBuilder();
+        ImagineBuilder imagineBuilder2 = new ImagineBuilder();
 
         Imagine imagine1 = imagineBuilder.setAplicatiiInstalate(listaAplicatii).setHasContPremium(true).build();
         System.out.println(imagine1);
+
+        Imagine imagine2 = imagineBuilder2.setHasExtensie(true).build();
+        System.out.println(imagine2);
 
     }
 }

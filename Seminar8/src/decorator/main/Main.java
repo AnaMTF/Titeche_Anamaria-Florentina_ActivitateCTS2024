@@ -20,7 +20,9 @@ public class Main {
         printare(decorator2);
 
         Decorator decorator3 = new BiletAniversareSTB(decorator1);
+
         printare(decorator3);
+
 
     }
 

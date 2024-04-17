@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExtraWork/DesignPattersCreationaleRecapitulare/DesignPattersCreationaleRecapitulare.iml" filepath="$PROJECT_DIR$/ExtraWork/DesignPattersCreationaleRecapitulare/DesignPattersCreationaleRecapitulare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/BancaD/BancaD.iml" filepath="$PROJECT_DIR$/ExtraWork/BancaD/BancaD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/CompanieSTBF/CompanieSTBF.iml" filepath="$PROJECT_DIR$/ExtraWork/CompanieSTBF/CompanieSTBF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/PentruTest1/DesignPattersCreationaleRecapitulare/DesignPattersCreationaleRecapitulare.iml" filepath="$PROJECT_DIR$/ExtraWork/PentruTest1/DesignPattersCreationaleRecapitulare/DesignPattersCreationaleRecapitulare.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExtraWork/ExtraWork.iml" filepath="$PROJECT_DIR$/ExtraWork/ExtraWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/FarmacieC/FarmacieC.iml" filepath="$PROJECT_DIR$/ExtraWork/FarmacieC/FarmacieC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/PentruTest1/PentruTest1.iml" filepath="$PROJECT_DIR$/ExtraWork/PentruTest1/PentruTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/RestaurantB/RestaurantB.iml" filepath="$PROJECT_DIR$/ExtraWork/RestaurantB/RestaurantB.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar1/Seminar1.iml" filepath="$PROJECT_DIR$/Seminar1/Seminar1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar2/Seminar2.iml" filepath="$PROJECT_DIR$/Seminar2/Seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar2Recapitulare/Seminar2Recapitulare.iml" filepath="$PROJECT_DIR$/Seminar2Recapitulare/Seminar2Recapitulare.iml" />
@@ -15,7 +20,9 @@
       <module fileurl="file://$PROJECT_DIR$/Seminar9/Seminar9.iml" filepath="$PROJECT_DIR$/Seminar9/Seminar9.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeminarCTS.iml" filepath="$PROJECT_DIR$/SeminarCTS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar3/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Seminar3/Singleton/Singleton.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ExtraWork/recapitulareTest/recapitulareTest.iml" filepath="$PROJECT_DIR$/ExtraWork/recapitulareTest/recapitulareTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/SpitalA/SpitalA.iml" filepath="$PROJECT_DIR$/ExtraWork/SpitalA/SpitalA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/SportivE/SportivE.iml" filepath="$PROJECT_DIR$/ExtraWork/SportivE/SportivE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExtraWork/PentruTest1/recapitulareTest/recapitulareTest.iml" filepath="$PROJECT_DIR$/ExtraWork/PentruTest1/recapitulareTest/recapitulareTest.iml" />
     </modules>
   </component>
 </project>

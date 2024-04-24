@@ -13,6 +13,5 @@ public class Main {
         validator.efectueazaPlata(3);
         validator.efectueazaPlata(3);
         validator.efectueazaPlata(3);
-
     }
 }

@@ -26,6 +26,6 @@ public class Validator {
     }
 
     public void efectueazaPlata (double pret){
-        modDePlata.plateste();
+        modDePlata.plateste(pret);
     }
 }
